@@ -1,0 +1,37 @@
+runs_dir: output/village
+
+example_name: village
+
+seed: -1
+frames: 10
+
+finetune_decoder_gen: True
+finetune_decoder_interp: True  # Turn on this for higher-quality rendered video
+finetune_depth_model: True
+finetune_decoder_customization: True
+# Abosulte painter model folder path
+stable_diffusion_customization_checkpoint: "painters/village"  
+
+num_scenes: 1
+num_keyframes: 5
+use_gpt: True
+kf2_upsample_coef: 4
+skip_interp: True
+skip_gen: False
+enable_regenerate: True
+
+debug: False
+inpainting_resolution_gen: 512
+
+
+num_of_assets: 5
+rotation_range: 0.45
+rotation_path: [0, 0, 0, 0, 0, 0, 0, 0]
+camera_speed_multiplier_rotation: 0.1
+save_fps: 10
+
+image_filepath: examples/village/img.jpg
+style_prompt: DSLR 35mm landscape
+content_prompt: Alpine village, street, chalet, church
+negative_prompt: ''
+background: ""

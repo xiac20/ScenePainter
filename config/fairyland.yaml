@@ -1,0 +1,36 @@
+runs_dir: output/fairyland
+
+example_name: fairyland
+
+seed: -1
+frames: 10
+
+finetune_decoder_gen: True
+finetune_decoder_interp: False  # Turn on this for higher-quality rendered video
+finetune_depth_model: True
+finetune_decoder_customization: False
+# Abosulte painter model folder path
+stable_diffusion_customization_checkpoint: "painters/fairyland"  
+
+num_scenes: 1
+num_keyframes: 6
+use_gpt: True
+kf2_upsample_coef: 4
+skip_interp: True
+skip_gen: False
+enable_regenerate: True
+
+debug: False
+inpainting_resolution_gen: 512
+
+
+rotation_range: 0.30
+rotation_path: [1, 0, 0, 1, 1, 0, 0, 0]
+camera_speed_multiplier_rotation: 0.1
+save_fps: 10
+
+image_filepath: examples/fairyland/img.jpg
+style_prompt: monet painting
+content_prompt: a magical fairyland, blue sky, a lot of mushroom houses
+negative_prompt: ''
+background: ""

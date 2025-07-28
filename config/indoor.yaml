@@ -1,0 +1,38 @@
+runs_dir: output/82_indoor_2
+
+example_name: indoor_2
+
+seed: -1
+frames: 10
+
+finetune_decoder_gen: True
+finetune_decoder_interp: False  # Turn on this for higher-quality rendered video
+finetune_depth_model: True
+finetune_decoder_customization: False
+# Abosulte painter model folder path
+stable_diffusion_customization_checkpoint: "painters/indoor"
+num_of_assets: 8  
+
+num_scenes: 1
+num_keyframes: 5
+use_gpt: True
+kf2_upsample_coef: 4
+skip_interp: True
+skip_gen: False
+
+enable_regenerate: True
+
+debug: False
+inpainting_resolution_gen: 512
+
+
+rotation_range: 0.45
+rotation_path: [-1, -1, -1, -1, -1, 0, 0, 0]
+camera_speed_multiplier_rotation: 0.2
+save_fps: 10
+
+image_filepath: examples/indoor/img.jpg
+style_prompt: painting style
+content_prompt: a well-decorated indoor scene, a large bright window, bookshelves with a lot of different books, ceiling, an unlighted lamp, a warm fireplace, couches with different colors, a carpet 
+negative_prompt: ''
+background: ""
