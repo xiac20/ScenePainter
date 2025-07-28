@@ -6,7 +6,7 @@
 <a href="https://xiac20.github.io/">Chong Xia</a>,
                 <a href="https://shengjun-zhang.github.io/">Shengjun Zhang</a>,
                 <a href="https://liuff19.github.io/">Fangfu Liu</a>,
-                Chang Liu,
+                Chang Liu, <br>
                 Khodchaphun Hirunyaratsameewong,
                 <a href="https://duanyueqi.github.io/">Yueqi Duan<sup>†</sup></a>
 <br>
