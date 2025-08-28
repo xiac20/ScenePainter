@@ -97,7 +97,7 @@ python bas_module/train.py  --instance_data_dir examples/village  --num_of_asset
 ### 3. Test the extracted T2I model
 
 ```bash
-python inference.py --model_path painters/village  --num_of_assets 5  --output_path result.jpg
+python bas_module/inference.py --model_path painters/village  --num_of_assets 5  --output_path result.jpg
 ```
 
 ### 4. Finetune the extracted T2I model for perpetual image generation
