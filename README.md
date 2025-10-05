@@ -116,13 +116,10 @@ We are thankful for the following great works when implementing ScenePainter:
 ## 📚Citation
 
 ```bibtex
-@misc{xia2025scenepaintersemanticallyconsistentperpetual,
-        title={ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment}, 
-        author={Chong Xia and Shengjun Zhang and Fangfu Liu and Chang Liu and Khodchaphun Hirunyaratsameewong and Yueqi Duan},
-        year={2025},
-        eprint={2507.19058},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2507.19058}, 
-      }
+@article{xia2025scenepainter,
+  title={ScenePainter: Semantically Consistent Perpetual 3D Scene Generation with Concept Relation Alignment},
+  author={Xia, Chong and Zhang, Shengjun and Liu, Fangfu and Liu, Chang and Hirunyaratsameewong, Khodchaphun and Duan, Yueqi},
+  journal={arXiv preprint arXiv:2507.19058},
+  year={2025}
+}
 ```
